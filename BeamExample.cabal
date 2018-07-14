@@ -31,12 +31,17 @@ library
   build-depends:
       base >=4.7 && <5
     , beam-core
+    , beam-migrate
     , beam-postgres
+    , beam-sqlite
+    , lens
+    , sqlite-simple
     , text
     , time
     , uuid
   exposed-modules:
       Lib
+    , Runner
     , Schema
   other-modules:
       Paths_BeamExample

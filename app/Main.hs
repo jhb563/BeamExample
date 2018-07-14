@@ -1,6 +1,6 @@
 module Main where
 
-import Lib
+import qualified Runner
 
 main :: IO ()
-main = someFunc
+main = Runner.main
